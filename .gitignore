@@ -1,0 +1,42 @@
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+## RUBINIUS
+*.rbc
+
+## NETBEANS
+nbproject
+
+## RUBYMINE
+.project
+.settings
+.directory
+
+## REDCAR
+.redcar
+
+## BUNDLER
+.bundle
+
+## RVM
+.rvmrc
+
+## PROJECT::GENERAL
+coverage
+rdoc
+pkg
+
+## PROJECT::SPECIFIC
+*.sqlite3

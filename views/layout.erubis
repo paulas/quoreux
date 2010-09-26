@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--[if IE]>
+    <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+    </script>
+  <![endif]-->
+  <title>Quoreux</title>
+  <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+  <link type='text/css' href='/stylesheets/style.css' media='screen' rel='stylesheet' />
+</head>
+<body>
+<header>
+  <h1>Quoreux</h1>
+  <h3>Powered by Sinatra, GD2 and rQRCode.</h3>
+</header>
+
+<section>
+  <%= yield %>
+</section>
+
+<footer>
+  <address>
+    Example by
+    <a href='http://eveel.ru/'>Dmitry A. Ustalov</a>.
+  </address>
+</footer>
+</body>
+</html>

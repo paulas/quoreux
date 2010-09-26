@@ -1,0 +1,33 @@
+GIT
+  remote: git://github.com/eveel/sinatra-config-file.git
+  revision: 6be83b80dd818a78a0cf79606f6a2dab0bde9cff
+  specs:
+    sinatra-config-file (0.5.0)
+      sinatra (~> 1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract (1.0.0)
+    erubis (2.6.6)
+      abstract (>= 1.0.0)
+    gd2 (1.1.1)
+    rack (1.2.1)
+    rake (0.8.7)
+    rqrcode (0.3.2)
+    shotgun (0.8)
+      rack (>= 1.0)
+    sinatra (1.0)
+      rack (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  erubis
+  gd2
+  rake
+  rqrcode
+  shotgun
+  sinatra
+  sinatra-config-file!
