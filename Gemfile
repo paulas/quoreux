@@ -1,4 +1,6 @@
-source :rubygems
+# encoding: utf-8
+
+source 'http://rubygems.org'
 
 gem 'rake'
 
@@ -6,10 +8,11 @@ gem 'sinatra'
 gem 'erubis'
 
 gem 'rqrcode'
-gem 'gd2'
 
-gem 'sinatra-config-file', :require => 'sinatra/config_file',
-    :git => 'git://github.com/eveel/sinatra-config-file.git'
+gem 'ffi'
+gem 'gd2-ffij'
+
+gem 'sinatra-config-file', require: 'sinatra/config_file'
 
 group :development do
   gem 'shotgun'
