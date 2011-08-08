@@ -3,12 +3,12 @@
 require 'zlib'
 
 class Quoreux < Sinatra::Base
-  set :app_file => __FILE__
+  set app_file: __FILE__
 
   register Sinatra::ConfigFile
   config_file File.join(root, 'config', 'config.yml')
 
-  set :layout => 'layout'
+  set layout: 'layout'
 
   get '/' do
     erubis :index

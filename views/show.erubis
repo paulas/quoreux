@@ -2,5 +2,5 @@
   <img id='qr-code' src='/images/<%= @crc32 %>.png' alt='<%= @crc32 %>' />
 </article>
 <p>
-  <a href='/'>You wanna some of this?</a>
+  <a href='/'>You want some of this?</a>
 </p>
